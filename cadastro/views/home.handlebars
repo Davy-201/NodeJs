@@ -1,0 +1,8 @@
+<h1>lista de posts:</h1>
+ {{#each posts}}
+    <small>{{dataValues.createdAt}}</small>
+    <h2>{{dataValues.titulo}}</h2>
+        <p>{{dataValues.conteudo}}</p>
+    <a href="/deletar/{{dataValues.id}}"><button>deletar</button></a>
+    <hr>
+{{/each}} funcionou mas atualmente ta em desuso pois o codigo se tornou perigos-->
